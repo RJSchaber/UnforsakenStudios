@@ -1,0 +1,37 @@
+/*Tutorials Page Main Content*/
+html {
+  min-height: 100%;
+  position: relative;
+}
+
+body {
+  height: 100%;
+}
+
+.tutorialsContent {
+  padding: 10% 0 0;
+  background-color: rgba(13, 13, 13, 0.85);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+}
+
+a.TutorialsPageLinks {
+  margin: 9% 0 0;
+  display: block;
+  text-align: center;
+  color: aliceblue;
+  font-size: 1.7rem;
+}
+
+a.TutorialsPageLinks a:hover {}
+
+
+@media only screen and (max-width: 500px) {
+  .tutorialsContent {
+    padding: 50% 0 0;
+  }
+}

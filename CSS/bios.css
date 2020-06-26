@@ -1,0 +1,58 @@
+/* Bios Main Content */
+html {
+  min-height: 100%;
+  position: relative;
+}
+
+body {
+  height: 100%;
+}
+
+.biosContent {
+  padding: 2% 5% 5%;
+  background-color: rgba(13, 13, 13, 0.85);
+  height: 100%;
+}
+
+.biosHeader {
+  text-align: center;
+  color: aliceblue;
+}
+
+.bio {
+  color: aliceblue;
+  text-align: justify;
+  font-size: 1.3rem;
+}
+
+.bioColumn {
+  padding: 1% 1% 0 0;
+}
+
+.biosImages {
+  width: 40rem;
+}
+
+.secondHeader {
+  text-align: left;
+  color: yellowgreen;
+  font-size: 1.5rem;
+}
+
+@media (max-width: 1450px) {
+  .bioColumn {
+    padding: 1% 1% 0 5%;
+  }
+}
+
+@media (max-width: 1300px) {
+  .bioColumn {
+    padding: 1% 1% 0 10%;
+  }
+}
+
+@media (max-width: 1199px) {
+  .bioColumn {
+    padding: 1% 0 10% 0;
+  }
+}

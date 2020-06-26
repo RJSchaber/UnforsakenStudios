@@ -1,0 +1,76 @@
+html {
+  min-height: 100%;
+  position: relative;
+}
+
+body {
+  height: 100%;
+}
+
+.mediaContent {
+  padding: 2% 0%;
+  background-color: rgba(13, 13, 13, 0.85);
+  height: 100%;
+}
+
+.mediaHead {
+  color: aliceblue;
+  font-size: 3.5rem;
+  font-family: 'Vollkorn', serif;
+  text-align: center;
+  margin-top: 1%;
+}
+
+.controls-top {
+  font-size: 1.3rem;
+  margin: 0 0 0 48.5%;
+}
+
+.black-text {
+  color: black;
+}
+
+.carousel-item {
+  height: 350px;
+  overflow: hidden;
+}
+
+.vidHover:hover {
+  cursor: pointer;
+}
+
+/* Media Query / Responsiveness*/
+@media (min-width: 768px) {
+  .carousel-multi-item-2 .col-md-3 {
+    float: left;
+    width: 25%;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 1450px) {
+  .carousel-multi-item-2 .col-md-3 {
+    overflow: hidden;
+    height: 250px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .videoWrapper{
+    padding: 0 0 10%;
+  }
+}
+
+@media (max-width: 500px) {
+  .videoWrapper{
+    padding: 0 0 30%;
+  }
+}
+
+.carousel-multi-item-2 .card img {
+  border-radius: 2px;
+}
+
+.videoWrapper {
+  margin: 5% 1%;
+}

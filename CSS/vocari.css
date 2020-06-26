@@ -1,0 +1,40 @@
+html {
+  min-height: 100%;
+  position: relative;
+}
+
+body {
+  height: 100%;
+}
+.vocariContent{
+  padding: 2% 0%;
+  background-color: rgba(13, 13, 13, 0.85);
+  height: 100%;
+}
+
+.vocariMainTxt {
+  color: aliceblue;
+  margin: 2% 10% 13%;
+  text-align: left;
+  font-family: 'Vollkorn', serif;
+  font-size: 2rem;
+}
+
+.vocariHead{
+  color: aliceblue;
+  font-size: 3.5rem;
+   font-family: 'Vollkorn', serif;
+  text-align: center;
+  margin-top: 1%;
+}
+
+/* Media Query / Responsiveness medium-large*/
+
+@media only screen and (max-width: 1200px) {
+
+  .vocariMainTxt {
+
+  font-size: 1.8rem;
+}
+
+}

@@ -1,0 +1,103 @@
+/* Google Fonts Selected
+font-family: 'Barriecito', cursive;
+font-family: 'Merriweather Sans', sans-serif;
+font-family: 'PT Serif', serif;
+font-family: 'Roboto Mono', monospace;
+font-family: 'Ubuntu', sans-serif;
+font-family: 'Vollkorn', serif;
+font-family: 'Montserrat', sans-serif;
+*/
+
+/* The Crew Page Main Content */
+html {
+  min-height: 100%;
+  position: relative;
+}
+
+body {
+  height: 100%;
+}
+
+.theCrewContent {
+  padding: 2% 0%;
+  background-color: rgba(13, 13, 13, 0.85);
+}
+
+.crewHeaderTxt {
+  color: aliceblue;
+  margin: 0 10% .5%;
+  text-align: left;
+  font-family: 'Vollkorn', serif;
+}
+
+.theCrewName {
+  margin-bottom: 0;
+  padding: 1% 0 0;
+}
+
+.teamMembers {
+  padding: 0 10% 1%;
+  margin: auto;
+}
+
+.teamText {
+  color: aliceblue;
+  margin: 0 10%;
+  text-align: center;
+  font-size: 1.35rem;
+  font-family: 'Vollkorn', serif;
+}
+
+.memberImage {
+  padding: 0;
+}
+
+
+a.theCrewName:link {
+  /* Applies to all unvisited links */
+  text-decoration: none;
+  font-weight: 500;
+  font-family: 'Merriweather Sans', sans-serif;
+  color: #bfbfbf;
+}
+
+a.theCrewName:visited {
+  /* Applies to all visited links */
+  text-decoration: none;
+  font-weight: 500;
+  color: #bfbfbf;
+}
+
+a.theCrewName:hover {
+  /* Applies to links under the pointer */
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.15rem;
+  color: aliceblue;
+  font-family: 'Barriecito', cursive;
+}
+
+a.theCrewName:active {
+  /* Applies to activated links */
+  text-decoration: none;
+  font-weight: 500;
+  color: #bfbfbf;
+}
+
+/* Media Query / Responsiveness medium-large*/
+
+@media only screen and (max-width: 1500px) {
+
+  .teamMembers {
+    padding: 0 0% 1%;
+  }
+
+  .crewHeaderTxt {
+    text-align: center;
+  }
+
+  .memberImage {
+    padding: 1% 0;
+  }
+
+}
